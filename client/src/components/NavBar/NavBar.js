@@ -1,5 +1,6 @@
 import React from "react";
 
+// Basic menu, mobile responsive
 const NavBar = () => {
 
   return (

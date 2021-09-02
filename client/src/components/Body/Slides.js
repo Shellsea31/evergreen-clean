@@ -1,5 +1,6 @@
 import React from "react";
 
+// A carousel of attractive images, last 5 seconds without intervention
 const Slides = () => {
   return (
     <div

@@ -1,5 +1,6 @@
 import React from "react";
 
+//A basic footer with potential links
 const Footer = () => {
   return (
     <div>
