@@ -3,8 +3,8 @@ const NavBar = () => {
   return (
     <div>
       <nav>
-        <div class="nav-wrapper">
-          <a href="#!" class="brand-logo">
+        <div className="nav-wrapper">
+          <a href="https://github.com/Shellsea31" className="brand-logo">
             Logo
           </a>
           <a
@@ -12,13 +12,13 @@ const NavBar = () => {
               e.preventDefault();
               console.log("menu");
             }}
-            href="#"
+            href="https://github.com/Shellsea31"
             data-target="mobile-demo"
-            class="sidenav-trigger"
+            className="sidenav-trigger"
           >
-            <i class="material-icons">menu</i>
+            <i className="material-icons">menu</i>
           </a>
-          <ul class="right hide-on-med-and-down">
+          <ul className="right hide-on-med-and-down">
             <li>
               <a href="sass.html">Sass</a>
             </li>
@@ -35,7 +35,7 @@ const NavBar = () => {
         </div>
       </nav>
 
-      <ul class="sidenav" id="mobile-demo">
+      <ul className="sidenav" id="mobile-demo">
         <li>
           <a href="sass.html">Sass</a>
         </li>
