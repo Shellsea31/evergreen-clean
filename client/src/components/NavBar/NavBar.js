@@ -1,55 +1,45 @@
-import React from "react";
+import React, { useEffect } from "react";
+
 const NavBar = () => {
+
   return (
-    <div>
-      <nav>
-        <div className="nav-wrapper">
-          <a href="https://github.com/Shellsea31" className="brand-logo">
-            Logo
-          </a>
-          <a
-            onClick={(e) => {
-              e.preventDefault();
-              console.log("menu");
-            }}
-            href="https://github.com/Shellsea31"
-            data-target="mobile-demo"
-            className="sidenav-trigger"
-          >
-            <i className="material-icons">menu</i>
-          </a>
-          <ul className="right hide-on-med-and-down">
-            <li>
-              <a href="sass.html">Sass</a>
+    <nav className="navbar navbar-expand-lg navbar-light">
+      <div className="container-fluid">
+        <a className="navbar-brand" name="company">
+          Evergreen Clean
+        </a>
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="collapse navbar-collapse" id="navbarNav">
+          <ul className="navbar-nav">
+            <li className="nav-item">
+              <button className="btn" name="one">
+                One
+              </button>
             </li>
-            <li>
-              <a href="badges.html">Components</a>
+            <li className="nav-item">
+              <button className="btn" name="two">
+                Two
+              </button>
             </li>
-            <li>
-              <a href="collapsible.html">Javascript</a>
-            </li>
-            <li>
-              <a href="mobile.html">Mobile</a>
+            <li className="nav-item">
+              <button className="btn" name="three">
+                Three
+              </button>
             </li>
           </ul>
         </div>
-      </nav>
-
-      <ul className="sidenav" id="mobile-demo">
-        <li>
-          <a href="sass.html">Sass</a>
-        </li>
-        <li>
-          <a href="badges.html">Components</a>
-        </li>
-        <li>
-          <a href="collapsible.html">Javascript</a>
-        </li>
-        <li>
-          <a href="mobile.html">Mobile</a>
-        </li>
-      </ul>
-    </div>
+      </div>
+    </nav>
   );
 };
 
