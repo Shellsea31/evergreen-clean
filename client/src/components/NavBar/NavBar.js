@@ -1,11 +1,56 @@
-import React from 'react'
-
+import React from "react";
 const NavBar = () => {
-    return (
-        <div>
-            <h1>This is NavBar</h1>
+  return (
+    <div>
+      <nav>
+        <div class="nav-wrapper">
+          <a href="#!" class="brand-logo">
+            Logo
+          </a>
+          <a
+            onClick={(e) => {
+              e.preventDefault();
+              console.log("menu");
+            }}
+            href="#"
+            data-target="mobile-demo"
+            class="sidenav-trigger"
+          >
+            <i class="material-icons">menu</i>
+          </a>
+          <ul class="right hide-on-med-and-down">
+            <li>
+              <a href="sass.html">Sass</a>
+            </li>
+            <li>
+              <a href="badges.html">Components</a>
+            </li>
+            <li>
+              <a href="collapsible.html">Javascript</a>
+            </li>
+            <li>
+              <a href="mobile.html">Mobile</a>
+            </li>
+          </ul>
         </div>
-    )
-}
+      </nav>
 
-export default NavBar
+      <ul class="sidenav" id="mobile-demo">
+        <li>
+          <a href="sass.html">Sass</a>
+        </li>
+        <li>
+          <a href="badges.html">Components</a>
+        </li>
+        <li>
+          <a href="collapsible.html">Javascript</a>
+        </li>
+        <li>
+          <a href="mobile.html">Mobile</a>
+        </li>
+      </ul>
+    </div>
+  );
+};
+
+export default NavBar;
