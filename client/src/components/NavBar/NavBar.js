@@ -1,13 +1,11 @@
-import React, { useEffect } from "react";
+import React from "react";
 
 const NavBar = () => {
 
   return (
     <nav className="navbar navbar-expand-lg navbar-light">
       <div className="container-fluid">
-        <a className="navbar-brand" name="company">
-          Evergreen Clean
-        </a>
+      <span className="navbar-brand mb-0 h1">Evergreen Cleaning</span>
         <button
           className="navbar-toggler"
           type="button"
