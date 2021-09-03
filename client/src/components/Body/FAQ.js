@@ -6,68 +6,72 @@ const FAQ = () => {
     padding: "50px",
   };
 
-  const introStyle = {
-    fontFamily: "Staatliches, cursive",
-  };
   return (
     <div>
-      <div class="card mb-3 bg-transparent border-0" style={cardStyle}>
-        <div class="row">
-          <div class="col-md-6">
-            <h5 class="card-text">A few of our frequently asked Questions</h5>
+      <div className="card mb-3 bg-transparent border-0" style={cardStyle}>
+        <div className="row">
+          <div className="col-md-6 mt-5">
+            <h5 className="card-text">A few of our frequently asked Questions</h5>
+            <i className="bi bi-arrow-right" style={{ fontSize: "50px" }}></i>
           </div>
 
-          <div class="col-md-6">
-            <div class="card-body">
+          <div className="col-md-6">
+            <div className="card-body">
               <p>
                 <a
-                  class="btn btn-primary"
+                  className="btn"
                   data-bs-toggle="collapse"
                   href="#collapseExample1"
                   role="button"
                   aria-expanded="false"
                   aria-controls="collapseExample1"
                 >
-                  Questions 1
+                  Why should I choose Evergreen Cleaning over your competitors?
                 </a>
               </p>
 
-              <div class="collapse" id="collapseExample1">
-                <div class="card card-body">Answer 1</div>
+              <div className="collapse" id="collapseExample1">
+                <div className="card card-body bg-transparent border-0">
+                  Answer 1
+                </div>
               </div>
               <p>
                 <a
-                  class="btn btn-primary"
+                  className="btn"
                   data-bs-toggle="collapse"
                   href="#collapseExample2"
                   role="button"
                   aria-expanded="false"
                   aria-controls="collapseExample2"
                 >
-                  Questions 2
+                  Do you bring your own equipment and cleaning supplies?
                 </a>
               </p>
-              <div class="collapse" id="collapseExample2">
-                <div class="card card-body">Answer 2</div>
+              <div className="collapse" id="collapseExample2">
+                <div className="card card-body bg-transparent border-0">
+                  Answer 2
+                </div>
               </div>
 
               <p>
                 <a
-                  class="btn btn-primary"
+                  className="btn"
                   data-bs-toggle="collapse"
                   href="#collapseExample3"
                   role="button"
                   aria-expanded="false"
                   aria-controls="collapseExample3"
                 >
-                  Questions 3
+                  Do I have to be home while you are cleaning?
                 </a>
               </p>
 
-              <div class="collapse" id="collapseExample3">
-                <div class="card card-body">Answer 3</div>
+              <div className="collapse" id="collapseExample3">
+                <div className="card card-body bg-transparent border-0">
+                  Answer 3
+                </div>
               </div>
-              <a href="#" class="btn btn-primary">
+              <a href="google.com" className="btn">
                 View More
               </a>
             </div>
