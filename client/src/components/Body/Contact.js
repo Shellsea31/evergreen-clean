@@ -1,11 +1,13 @@
-import React from 'react'
+import React from "react";
 
 const Contact = () => {
-    return (
-        <div>
-            <h1>This is contact information</h1>
-        </div>
-    )
-}
+  return (
+    <div class="card">
+      <p>
+        <strong>This line rendered as bold text.</strong>
+      </p>
+    </div>
+  );
+};
 
-export default Contact
+export default Contact;
