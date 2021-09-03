@@ -21,18 +21,28 @@ const NavBar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <button className="btn" name="one">
-                One
+              <button className="btn" name="home">
+                Home
               </button>
             </li>
             <li className="nav-item">
-              <button className="btn" name="two">
-                Two
+              <button className="btn" name="faq">
+                FAQs
               </button>
             </li>
             <li className="nav-item">
-              <button className="btn" name="three">
-                Three
+              <button className="btn" name="appts">
+                Appointments
+              </button>
+            </li>
+            <li className="nav-item">
+              <button className="btn" name="contact">
+                Contact Us
+              </button>
+            </li>
+            <li className="nav-item">
+              <button className="btn" name="about">
+                About
               </button>
             </li>
           </ul>
