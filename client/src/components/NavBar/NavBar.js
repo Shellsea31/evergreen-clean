@@ -21,29 +21,29 @@ const NavBar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <button className="btn" name="home">
+              <a className="btn" name="home">
                 Home
-              </button>
+              </a>
             </li>
             <li className="nav-item">
-              <button className="btn" name="about">
+              <a className="btn" name="about" href="#about">
                 About
-              </button>
+              </a>
             </li>
             <li className="nav-item">
-              <button className="btn" name="faq">
+              <a className="btn" name="faq" href="#faq">
                 FAQs
-              </button>
+              </a>
             </li>
             <li className="nav-item">
-              <button className="btn" name="appts">
+              <a className="btn" name="appts" href="#appts">
                 Appointments
-              </button>
+              </a>
             </li>
             <li className="nav-item">
-              <button className="btn" name="contact">
+              <a className="btn" name="contact" href="#contact">
                 Contact Us
-              </button>
+              </a>
             </li>
             
           </ul>

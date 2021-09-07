@@ -8,10 +8,16 @@ const FAQ = () => {
 
   return (
     <div>
-      <div className="card mb-3 bg-transparent border-0" style={cardStyle}>
+      <div
+        className="card mb-3 bg-transparent border-0"
+        id="faq"
+        style={cardStyle}
+      >
         <div className="row">
           <div className="col-md-6 mt-5">
-            <h5 className="card-text">A few of our frequently asked Questions</h5>
+            <h5 className="card-text">
+              A few of our frequently asked Questions
+            </h5>
             <i className="bi bi-arrow-right" style={{ fontSize: "50px" }}></i>
           </div>
 

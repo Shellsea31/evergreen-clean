@@ -6,7 +6,7 @@ const Appointments = () => {
     padding: "50px",
   };
   return (
-    <div class="card mb-3 bg-transparent border-0" style={cardStyle}>
+    <div class="card mb-3 bg-transparent border-0" id="appts" style={cardStyle}>
       <div class="row">
         <div class="mx-auto" style={{ width: "450px" }}>
           <h1>Book your Cleaning!</h1>
@@ -41,15 +41,13 @@ const Appointments = () => {
             ></input>
           </div>
 
-
-
           <label for="basic-url" class="form-label">
             Tell us about your goals
           </label>
 
           <div class="input-group">
             <textarea
-            placeholder="office space needs dust and mop twice a week..."
+              placeholder="office space needs dust and mop twice a week..."
               class="form-control"
               aria-label="With textarea"
             ></textarea>

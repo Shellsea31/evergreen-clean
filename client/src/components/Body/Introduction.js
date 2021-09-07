@@ -1,7 +1,7 @@
 import React from "react";
 const cardStyle = {
   minWidth: "auto",
-  padding:"50px"
+  padding: "50px",
 };
 
 const introStyle = {
@@ -11,7 +11,11 @@ const introStyle = {
 const Introduction = () => {
   return (
     <div>
-      <div className="card mb-3 bg-transparent border-0" style={cardStyle}>
+      <div
+        className="card mb-3 bg-transparent border-0"
+        id="about"
+        style={cardStyle}
+      >
         <div className="row">
           {/* Image styling container */}
           <div className="col-md-6">
@@ -24,8 +28,8 @@ const Introduction = () => {
           <div className="col-md-6">
             <div className="card-body">
               <h1 className="card-text text-center" style={introStyle}>
-                A company dedicated to helping
-                families achieve their cleaning goals.
+                A company dedicated to helping families achieve their cleaning
+                goals.
               </h1>
             </div>
           </div>
