@@ -4,9 +4,16 @@ const Appointments = () => {
   const cardStyle = {
     minWidth: "auto",
     padding: "50px",
+    marginTop: "75px",
+    marginLeft: "200px",
+    marginRight: "200px",
   };
   return (
-    <div className="card mb-3 bg-transparent border-0" id="appts" style={cardStyle}>
+    <div
+      className="card mb-3 bg-transparent border border-dark rounded-0"
+      id="appts"
+      style={cardStyle}
+    >
       <div className="row">
         <div className="mx-auto" style={{ width: "450px" }}>
           <h1>Book your Cleaning!</h1>
@@ -41,9 +48,7 @@ const Appointments = () => {
             ></input>
           </div>
 
-          <label className="form-label">
-            Tell us about your goals
-          </label>
+          <label className="form-label">Tell us about your goals</label>
 
           <div className="input-group">
             <textarea

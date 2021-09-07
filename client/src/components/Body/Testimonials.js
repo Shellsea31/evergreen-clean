@@ -5,34 +5,48 @@ const Testimonials = () => {
     minWidth: "auto",
     padding: "50px",
   };
+
   return (
     <div className="card bg-transparent border-0" style={cardStyle}>
-      <figure className="text-start mt-5 mb-5">
-        <blockquote className="blockquote">
-          <p>A well-known quote, contained in a blockquote element.</p>
-        </blockquote>
-        <figcaption className="blockquote-footer">
-          Someone famous in <cite title="Source Title">Source Title</cite>
-        </figcaption>
-      </figure>
-
-      <figure className="text-center mt-5 mb-5">
-        <blockquote className="blockquote">
-          <p>A well-known quote, contained in a blockquote element.</p>
-        </blockquote>
-        <figcaption className="blockquote-footer">
-          Someone famous in <cite title="Source Title">Source Title</cite>
-        </figcaption>
-      </figure>
-
-      <figure className="text-end mt-5 mb-5">
-        <blockquote className="blockquote">
-          <p>A well-known quote, contained in a blockquote element.</p>
-        </blockquote>
-        <figcaption className="blockquote-footer">
-          Someone famous in <cite title="Source Title">Source Title</cite>
-        </figcaption>
-      </figure>
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h1>First</h1>
+          </div>
+          <div class="carousel-item">
+            <h1>Second</h1>
+          </div>
+          <div class="carousel-item">
+            <h1>Third</h1>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <i
+            class="bi bi-arrow-left-circle"
+            style={{ fontSize: "50px", color: "black" }}
+          ></i>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <i
+            class="bi bi-arrow-right-circle"
+            style={{ fontSize: "50px", color: "black" }}
+          ></i>
+        </button>
+      </div>
     </div>
   );
 };

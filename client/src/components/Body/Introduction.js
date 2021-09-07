@@ -2,6 +2,10 @@ import React from "react";
 const cardStyle = {
   minWidth: "auto",
   padding: "50px",
+  backgroundColor: "#f0f6f6",
+  marginTop:"75px",
+  marginLeft:"250px",
+  marginRight:"250px"
 };
 
 const introStyle = {
@@ -12,7 +16,7 @@ const Introduction = () => {
   return (
     <div>
       <div
-        className="card mb-3 bg-transparent border-0"
+        className="card mb-3 border-0 rounded-0"
         id="about"
         style={cardStyle}
       >
