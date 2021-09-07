@@ -1,17 +1,25 @@
 // import logo from './logo.svg';
-import './App.css';
-import Body from './components/Body/Body';
-import Footer from './components/Footer/Footer';
-import NavBar from './components/NavBar/NavBar';
+import "./App.css";
+import Body from "./Pages/Body";
+
+import Footer from "./components/Footer/Footer";
+import NavBar from "./components/NavBar/NavBar";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Faq from "./Pages/Faq";
 
 function App() {
-  
   return (
-    <div className="App">
-      <NavBar/>
-      <Body/>
-      <Footer/>
-    </div>
+    <Router>
+      <div className="App">
+        <NavBar />
+        <Switch>
+          <Route exact path="/" component={Body} />
+          <Route path="/faq" component={Faq} />
+        </Switch>
+
+        <Footer />
+      </div>
+    </Router>
   );
 }
 

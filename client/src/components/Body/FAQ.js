@@ -77,9 +77,7 @@ const FAQ = () => {
                   Answer 3
                 </div>
               </div>
-              <a href="google.com" className="btn">
-                View More
-              </a>
+              <a href="/faq"> View More</a>
             </div>
           </div>
         </div>
