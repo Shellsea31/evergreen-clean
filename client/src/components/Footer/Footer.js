@@ -14,26 +14,27 @@ const Footer = () => {
             </li>
             <li className="nav-item">
               <a href="google.com" className="nav-link px-2 text-muted">
-                Features
-              </a>
-            </li>
-            <li className="nav-item">
-              <a href="google.com" className="nav-link px-2 text-muted">
-                Pricing
-              </a>
-            </li>
-            <li className="nav-item">
-              <a href="google.com" className="nav-link px-2 text-muted">
-                FAQs
-              </a>
-            </li>
-            <li className="nav-item">
-              <a href="google.com" className="nav-link px-2 text-muted">
                 About
               </a>
             </li>
+            <li className="nav-item">
+              <a href="google.com" className="nav-link px-2 text-muted">
+                FAQ
+              </a>
+            </li>
+            <li className="nav-item">
+              <a href="google.com" className="nav-link px-2 text-muted">
+                Appointments
+              </a>
+            </li>
           </ul>
-          <p className="text-center text-muted">A Cleaning Company</p>
+
+          <p className="text-center text-muted">Contact us:</p>
+          <p className="text-center text-muted">Phone: 408-836-8483</p>
+          <p className="text-center text-muted">
+            Email: duniavbarrera@gmail.com
+          </p>
+          <p className="text-center text-muted">Based in Olympia, WA</p>
         </footer>
       </div>
     </div>

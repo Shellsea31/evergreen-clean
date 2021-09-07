@@ -26,6 +26,11 @@ const NavBar = () => {
               </button>
             </li>
             <li className="nav-item">
+              <button className="btn" name="about">
+                About
+              </button>
+            </li>
+            <li className="nav-item">
               <button className="btn" name="faq">
                 FAQs
               </button>
@@ -40,11 +45,7 @@ const NavBar = () => {
                 Contact Us
               </button>
             </li>
-            <li className="nav-item">
-              <button className="btn" name="about">
-                About
-              </button>
-            </li>
+            
           </ul>
         </div>
       </div>
