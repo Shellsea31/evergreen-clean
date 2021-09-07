@@ -6,30 +6,30 @@ const Testimonials = () => {
     padding: "50px",
   };
   return (
-    <div class="card bg-transparent border-0" style={cardStyle}>
-      <figure class="text-start mt-5 mb-5">
-        <blockquote class="blockquote">
+    <div className="card bg-transparent border-0" style={cardStyle}>
+      <figure className="text-start mt-5 mb-5">
+        <blockquote className="blockquote">
           <p>A well-known quote, contained in a blockquote element.</p>
         </blockquote>
-        <figcaption class="blockquote-footer">
+        <figcaption className="blockquote-footer">
           Someone famous in <cite title="Source Title">Source Title</cite>
         </figcaption>
       </figure>
 
-      <figure class="text-center mt-5 mb-5">
-        <blockquote class="blockquote">
+      <figure className="text-center mt-5 mb-5">
+        <blockquote className="blockquote">
           <p>A well-known quote, contained in a blockquote element.</p>
         </blockquote>
-        <figcaption class="blockquote-footer">
+        <figcaption className="blockquote-footer">
           Someone famous in <cite title="Source Title">Source Title</cite>
         </figcaption>
       </figure>
 
-      <figure class="text-end mt-5 mb-5">
-        <blockquote class="blockquote">
+      <figure className="text-end mt-5 mb-5">
+        <blockquote className="blockquote">
           <p>A well-known quote, contained in a blockquote element.</p>
         </blockquote>
-        <figcaption class="blockquote-footer">
+        <figcaption className="blockquote-footer">
           Someone famous in <cite title="Source Title">Source Title</cite>
         </figcaption>
       </figure>

@@ -5,18 +5,16 @@ const Faq = () => {
     minWidth: "auto",
     padding: "50px",
   };
-  const accordionStyle = {
-    backgroundColor: "transparent",
-  };
+
   return (
     <div className="card mb-3 bg-transparent bg-0" id="about" style={cardStyle}>
       <div className="row">
         <div className="col-md-6">
-          <div class="accordion accordion-flush" id="accordionFlushExample">
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="flush-headingOne">
+          <div className="accordion accordion-flush" id="accordionFlushExample">
+            <div className="accordion-item">
+              <h2 className="accordion-header" id="flush-headingOne">
                 <button
-                  class="accordion-button collapsed"
+                  className="accordion-button collapsed"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#flush-collapseOne"
@@ -28,17 +26,17 @@ const Faq = () => {
               </h2>
               <div
                 id="flush-collapseOne"
-                class="accordion-collapse collapse"
+                className="accordion-collapse collapse"
                 aria-labelledby="flush-headingOne"
                 data-bs-parent="#accordionFlushExample"
               >
-                <div class="accordion-body">Answer 1</div>
+                <div className="accordion-body">Answer 1</div>
               </div>
             </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="flush-headingTwo">
+            <div className="accordion-item">
+              <h2 className="accordion-header" id="flush-headingTwo">
                 <button
-                  class="accordion-button collapsed"
+                  className="accordion-button collapsed"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#flush-collapseTwo"
@@ -50,17 +48,17 @@ const Faq = () => {
               </h2>
               <div
                 id="flush-collapseTwo"
-                class="accordion-collapse collapse"
+                className="accordion-collapse collapse"
                 aria-labelledby="flush-headingTwo"
                 data-bs-parent="#accordionFlushExample"
               >
-                <div class="accordion-body">Answer 2</div>
+                <div className="accordion-body">Answer 2</div>
               </div>
             </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="flush-headingThree">
+            <div className="accordion-item">
+              <h2 className="accordion-header" id="flush-headingThree">
                 <button
-                  class="accordion-button collapsed"
+                  className="accordion-button collapsed"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#flush-collapseThree"
@@ -72,11 +70,11 @@ const Faq = () => {
               </h2>
               <div
                 id="flush-collapseThree"
-                class="accordion-collapse collapse"
+                className="accordion-collapse collapse"
                 aria-labelledby="flush-headingThree"
                 data-bs-parent="#accordionFlushExample"
               >
-                <div class="accordion-body">Answer 3</div>
+                <div className="accordion-body">Answer 3</div>
               </div>
             </div>
           </div>
@@ -84,18 +82,18 @@ const Faq = () => {
 
         <div className="col-md-6">
           <form>
-            <div class="mb-3">
-              <label class="form-check-label" for="exampleCheck1">
+            <div className="mb-3">
+              <label className="form-check-label" for="exampleCheck1">
                 Send us your questions!
               </label>
               <input
                 type="text"
-                class="form-control"
+                className="form-control"
                 id="exampleInput"
                 aria-describedby="question"
               ></input>
             </div>
-            <button type="submit" class="btn">
+            <button type="submit" className="btn">
               Submit
             </button>
           </form>
