@@ -19,7 +19,7 @@ const Slides = () => {
             alt="..."
           ></img>
           <div
-            class="carousel-caption d-none d-md-block position-absolute bottom-50 text-dark"
+            className="carousel-caption d-none d-md-block position-absolute bottom-50 text-dark"
             style={letters}
           >
             <h1>A company based in Olympia, WA</h1>
@@ -32,7 +32,7 @@ const Slides = () => {
             alt="..."
           ></img>
           <div
-            class="carousel-caption d-none d-md-block position-absolute bottom-50"
+            className="carousel-caption d-none d-md-block position-absolute bottom-50"
             style={letters}
           >
             <h1>Over 10 years of experience</h1>
@@ -45,7 +45,7 @@ const Slides = () => {
             alt="..."
           ></img>
           <div
-            class="carousel-caption d-none d-md-block position-absolute bottom-50 text-dark"
+            className="carousel-caption d-none d-md-block position-absolute bottom-50 text-dark"
             style={letters}
           >
             <h1>Book your appointment today!</h1>

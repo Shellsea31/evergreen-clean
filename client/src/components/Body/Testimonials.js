@@ -10,60 +10,60 @@ const Testimonials = () => {
     <div className="card bg-transparent border-0" style={cardStyle}>
       <div
         id="carouselExampleControls"
-        class="carousel slide"
+        className="carousel slide"
         data-bs-ride="carousel"
       >
-        <div class="carousel-inner">
-          <div class="carousel-item active">
+        <div className="carousel-inner">
+          <div className="carousel-item active">
             <figure>
-              <blockquote class="blockquote">
+              <blockquote className="blockquote">
                 <p>Very professional and always made me feel safe.</p>
               </blockquote>
-              <figcaption class="blockquote-footer">
+              <figcaption className="blockquote-footer">
                 <cite title="Source Title">Mary Anne</cite>
               </figcaption>
             </figure>
           </div>
-          <div class="carousel-item">
+          <div className="carousel-item">
             <figure>
-              <blockquote class="blockquote">
+              <blockquote className="blockquote">
                 <p>I trust Evergreen Cleaning with my workspace. They always do a great job!</p>
               </blockquote>
-              <figcaption class="blockquote-footer">
+              <figcaption className="blockquote-footer">
                 <cite title="Source Title">Joe Biden</cite>
               </figcaption>
             </figure>
           </div>
-          <div class="carousel-item">
+          <div className="carousel-item">
             <figure>
-              <blockquote class="blockquote">
+              <blockquote className="blockquote">
                 <p>It was really easy to start up a schedule and I love how flexible they are.</p>
               </blockquote>
-              <figcaption class="blockquote-footer">
+              <figcaption className="blockquote-footer">
                 <cite title="Source Title">Jennifer Hudson</cite>
               </figcaption>
             </figure>
           </div>
         </div>
         <button
-          class="carousel-control-prev"
+          className="carousel-control-prev"
           type="button"
           data-bs-target="#carouselExampleControls"
           data-bs-slide="prev"
         >
           <i
-            class="bi bi-arrow-left-circle"
+            className="bi bi-arrow-left-circle"
             style={{ fontSize: "50px", color: "black" }}
           ></i>
         </button>
         <button
-          class="carousel-control-next"
+          className="carousel-control-next"
           type="button"
           data-bs-target="#carouselExampleControls"
           data-bs-slide="next"
         >
           <i
-            class="bi bi-arrow-right-circle"
+            className="bi bi-arrow-right-circle"
             style={{ fontSize: "50px", color: "black" }}
           ></i>
         </button>

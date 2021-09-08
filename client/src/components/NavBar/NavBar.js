@@ -2,11 +2,14 @@ import React from "react";
 
 // Basic menu, mobile responsive
 const NavBar = () => {
-
   return (
     <nav className="navbar navbar-expand-lg navbar-light">
       <div className="container-fluid">
-      <span className="navbar-brand mb-0 h1" style={{color:"#629460"}}>Evergreen Cleaning</span>
+        <span className="navbar-brand mb-0 h1" style={{ color: "#629460" }}>
+          Evergreen Cleaning
+          <i className="fas fa-broom" style={{ color: "#629460" }}></i>
+        </span>
+
         <button
           className="navbar-toggler"
           type="button"
@@ -21,7 +24,7 @@ const NavBar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a href="/"className="btn" name="home">
+              <a href="/" className="btn" name="home">
                 Home
               </a>
             </li>
@@ -45,10 +48,8 @@ const NavBar = () => {
                 Contact Us
               </a>
             </li>
-            
           </ul>
         </div>
-        <i class="fas fa-broom" style={{color:"#629460"}}></i>
       </div>
     </nav>
   );

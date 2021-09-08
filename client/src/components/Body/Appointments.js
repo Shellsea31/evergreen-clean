@@ -57,7 +57,7 @@ const Appointments = () => {
               aria-label="With textarea"
             ></textarea>
           </div>
-          <a className="btn btn-light"> Submit</a>
+          <button className="btn btn-light"> Submit</button>
         </div>
       </div>
     </div>

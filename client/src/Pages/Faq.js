@@ -97,8 +97,8 @@ const Faq = () => {
 
         <div className="col-md-6">
           <form>
-            <div className="mb-3">
-              <label className="form-check-label mb-4" for="exampleCheck1">
+            <div className="mb-3 mt-3">
+              <label className="form-check-label mb-4">
                 Send us your questions!
               </label>
               <input
