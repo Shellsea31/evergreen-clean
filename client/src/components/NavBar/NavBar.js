@@ -6,7 +6,7 @@ const NavBar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light">
       <div className="container-fluid">
-      <span className="navbar-brand mb-0 h1">Evergreen Cleaning</span>
+      <span className="navbar-brand mb-0 h1" style={{color:"#629460"}}>Evergreen Cleaning</span>
         <button
           className="navbar-toggler"
           type="button"
@@ -48,6 +48,7 @@ const NavBar = () => {
             
           </ul>
         </div>
+        <i class="fas fa-broom" style={{color:"#629460"}}></i>
       </div>
     </nav>
   );

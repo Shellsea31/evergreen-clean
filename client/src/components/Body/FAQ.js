@@ -23,7 +23,7 @@ const FAQ = () => {
             <div className="card-body">
               <p>
                 <a
-                  className="btn text-light"
+                  className="btn btn-outline-light text-light"
                   data-bs-toggle="collapse"
                   href="#collapseExample1"
                   role="button"
@@ -37,12 +37,13 @@ const FAQ = () => {
 
               <div className="collapse text-light" id="collapseExample1">
                 <div className="card card-body bg-transparent border-0">
-                  Answer 1
+                  We offer a trustworthy service unique to your needs. Unlike most standard cleaning service, we are completely flexible and 
+                  encourage our clients to communicate with us whenever something becomes inconvenient. 
                 </div>
               </div>
               <p>
                 <a
-                  className="btn text-light"
+                  className="btn btn-outline-light text-light "
                   data-bs-toggle="collapse"
                   href="#collapseExample2"
                   role="button"
@@ -54,13 +55,14 @@ const FAQ = () => {
               </p>
               <div className="collapse text-light" id="collapseExample2">
                 <div className="card card-body bg-transparent border-0">
-                  Answer 2
+                  Because we like to cater to your needs and want to be as versatile as possible with all our clients, we ask that
+                  you provide the supplies you believe are safe and best for your home or work space. 
                 </div>
               </div>
 
               <p>
                 <a
-                  className="btn text-light"
+                  className="btn btn-outline-light text-light"
                   data-bs-toggle="collapse"
                   href="#collapseExample3"
                   role="button"
@@ -73,7 +75,8 @@ const FAQ = () => {
 
               <div className="collapse text-light" id="collapseExample3">
                 <div className="card card-body bg-transparent border-0">
-                  Answer 3
+                  We love when there is trust between us and our clients. However, we recognize that it's
+                  not immediate. So, we have no problem with you being present at some or all the cleaning sessions. 
                 </div>
               </div>
               <a className="btn btn-light" href="/faq"> View More</a>

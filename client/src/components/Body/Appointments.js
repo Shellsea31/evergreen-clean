@@ -32,7 +32,7 @@ const Appointments = () => {
             <input
               type="email"
               className="form-control"
-              placeholder="customer123@gmail.com"
+              placeholder="Email"
               aria-label="email"
               aria-describedby="basic-addon2"
             ></input>
@@ -42,7 +42,7 @@ const Appointments = () => {
             <input
               type="tel"
               className="form-control"
-              placeholder="000-000-0000"
+              placeholder="Phone Number"
               aria-label="cell"
               aria-describedby="basic-addon2"
             ></input>
@@ -50,13 +50,14 @@ const Appointments = () => {
 
           <label className="form-label">Tell us about your goals</label>
 
-          <div className="input-group">
+          <div className="input-group mb-3">
             <textarea
               placeholder="office space needs dust and mop twice a week..."
               className="form-control"
               aria-label="With textarea"
             ></textarea>
           </div>
+          <a className="btn btn-light"> Submit</a>
         </div>
       </div>
     </div>

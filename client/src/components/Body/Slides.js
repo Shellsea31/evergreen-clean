@@ -2,6 +2,9 @@ import React from "react";
 
 // A carousel of attractive images, last 5 seconds without intervention
 const Slides = () => {
+  const letters = {
+    letterSpacing: "5px",
+  };
   return (
     <div
       id="carouselExampleInterval"
@@ -15,6 +18,12 @@ const Slides = () => {
             className="d-block w-100"
             alt="..."
           ></img>
+          <div
+            class="carousel-caption d-none d-md-block position-absolute bottom-50 text-dark"
+            style={letters}
+          >
+            <h1>A company based in Olympia, WA</h1>
+          </div>
         </div>
         <div className="carousel-item" data-bs-interval="5000">
           <img
@@ -22,6 +31,12 @@ const Slides = () => {
             className="d-block w-100"
             alt="..."
           ></img>
+          <div
+            class="carousel-caption d-none d-md-block position-absolute bottom-50"
+            style={letters}
+          >
+            <h1>Over 10 years of experience</h1>
+          </div>
         </div>
         <div className="carousel-item" data-bs-interval="5000">
           <img
@@ -29,6 +44,12 @@ const Slides = () => {
             className="d-block w-100"
             alt="..."
           ></img>
+          <div
+            class="carousel-caption d-none d-md-block position-absolute bottom-50 text-dark"
+            style={letters}
+          >
+            <h1>Book your appointment today!</h1>
+          </div>
         </div>
       </div>
 

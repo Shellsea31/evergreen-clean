@@ -7,7 +7,7 @@ const Faq = () => {
   };
 
   return (
-    <div className="card mb-3 bg-transparent bg-0" id="about" style={cardStyle}>
+    <div className="card mt-5 mb-5 bg-transparent border-0" id="about" style={cardStyle}>
       <div className="row">
         <div className="col-md-6">
           <div className="accordion accordion-flush" id="accordionFlushExample">
@@ -30,7 +30,12 @@ const Faq = () => {
                 aria-labelledby="flush-headingOne"
                 data-bs-parent="#accordionFlushExample"
               >
-                <div className="accordion-body">Answer 1</div>
+                <div className="accordion-body">
+                  We offer a trustworthy service unique to your needs. Unlike
+                  most standard cleaning service, we are completely flexible and
+                  encourage our clients to communicate with us whenever
+                  something becomes inconvenient.{" "}
+                </div>
               </div>
             </div>
             <div className="accordion-item">
@@ -52,7 +57,12 @@ const Faq = () => {
                 aria-labelledby="flush-headingTwo"
                 data-bs-parent="#accordionFlushExample"
               >
-                <div className="accordion-body">Answer 2</div>
+                <div className="accordion-body">
+                  Because we like to cater to your needs and want to be as
+                  versatile as possible with all our clients, we ask that you
+                  provide the supplies you believe are safe and best for your
+                  home or work space.{" "}
+                </div>
               </div>
             </div>
             <div className="accordion-item">
@@ -74,7 +84,12 @@ const Faq = () => {
                 aria-labelledby="flush-headingThree"
                 data-bs-parent="#accordionFlushExample"
               >
-                <div className="accordion-body">Answer 3</div>
+                <div className="accordion-body">
+                  We love when there is trust between us and our clients.
+                  However, we recognize that it's not immediate. So, we have no
+                  problem with you being present at some or all the cleaning
+                  sessions.{" "}
+                </div>
               </div>
             </div>
           </div>
@@ -83,7 +98,7 @@ const Faq = () => {
         <div className="col-md-6">
           <form>
             <div className="mb-3">
-              <label className="form-check-label" for="exampleCheck1">
+              <label className="form-check-label mb-4" for="exampleCheck1">
                 Send us your questions!
               </label>
               <input
@@ -93,7 +108,7 @@ const Faq = () => {
                 aria-describedby="question"
               ></input>
             </div>
-            <button type="submit" className="btn">
+            <button type="submit" className="btn btn-light mt-4">
               Submit
             </button>
           </form>
