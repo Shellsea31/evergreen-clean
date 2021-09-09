@@ -44,10 +44,11 @@ code {
   font-size: 20px;
 }
 
+
 @media (max-width: 1000px) {
   #introduction,
   #appts {
-    margin: 75px;
+    margin: 95px;
   }
   .carousel-item {
     max-height: 300px;
@@ -64,5 +65,5 @@ code {
 }
 
 @media (max-width: 765px){
-  
+
 }
