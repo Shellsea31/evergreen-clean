@@ -1,21 +1,13 @@
 import React from "react";
 
 const Appointments = () => {
-  const cardStyle = {
-    minWidth: "auto",
-    padding: "50px",
-    // marginTop: "75px",
-    // marginLeft: "200px",
-    // marginRight: "200px",
-  };
   return (
     <div
       className="card mb-3 bg-transparent border border-dark rounded-0"
       id="appts"
-      style={cardStyle}
     >
       <div className="row">
-        <div className="mx-auto" style={{ width: "450px" }}>
+        <div className="mx-auto" id="inputForm">
           <h1>Book your Cleaning!</h1>
 
           <div className="input-group mb-3">

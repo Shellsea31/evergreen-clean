@@ -15,7 +15,8 @@ code {
     monospace;
 }
 
-#introduction {
+#introduction,
+#appts {
   min-width: auto;
   padding: 50px;
   background-color: #f0f6f6;
@@ -24,15 +25,44 @@ code {
   margin-left: 250px;
 }
 
+#inputForm {
+  width: 450px;
+}
+
 .carousel-item {
   max-height: 700px;
 }
 
+.bi-arrow-left-circle,
+.bi-arrow-right-circle {
+  font-size: 50px;
+  color: black;
+}
+
+.blockquote,
+.blockquote-footer {
+  font-size: 20px;
+}
+
 @media (max-width: 1000px) {
-  #introduction {
+  #introduction,
+  #appts {
     margin: 75px;
   }
   .carousel-item {
     max-height: 300px;
   }
+  .bi-arrow-left-circle,
+  .bi-arrow-right-circle {
+    font-size: 25px;
+  }
+
+  .blockquote,
+  .blockquote-footer {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 765px){
+  
 }

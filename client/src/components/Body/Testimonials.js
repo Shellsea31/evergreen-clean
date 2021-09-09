@@ -3,7 +3,8 @@ import React from "react";
 const Testimonials = () => {
   const cardStyle = {
     minWidth: "auto",
-    padding: "50px",
+    marginTop:"75px",
+    marginBottom:"75px",
   };
 
   return (
@@ -27,7 +28,10 @@ const Testimonials = () => {
           <div className="carousel-item">
             <figure>
               <blockquote className="blockquote">
-                <p>I trust Evergreen Cleaning with my workspace. They always do a great job!</p>
+                <p>
+                  I trust Evergreen Cleaning with my workspace. They always do a
+                  great job!
+                </p>
               </blockquote>
               <figcaption className="blockquote-footer">
                 <cite title="Source Title">Joe Biden</cite>
@@ -37,7 +41,10 @@ const Testimonials = () => {
           <div className="carousel-item">
             <figure>
               <blockquote className="blockquote">
-                <p>It was really easy to start up a schedule and I love how flexible they are.</p>
+                <p>
+                  It was really easy to start up a schedule and I love how
+                  flexible they are.
+                </p>
               </blockquote>
               <figcaption className="blockquote-footer">
                 <cite title="Source Title">Jennifer Hudson</cite>
@@ -51,10 +58,7 @@ const Testimonials = () => {
           data-bs-target="#carouselExampleControls"
           data-bs-slide="prev"
         >
-          <i
-            className="bi bi-arrow-left-circle"
-            style={{ fontSize: "50px", color: "black" }}
-          ></i>
+          <i className="bi bi-arrow-left-circle"></i>
         </button>
         <button
           className="carousel-control-next"
@@ -62,10 +66,7 @@ const Testimonials = () => {
           data-bs-target="#carouselExampleControls"
           data-bs-slide="next"
         >
-          <i
-            className="bi bi-arrow-right-circle"
-            style={{ fontSize: "50px", color: "black" }}
-          ></i>
+          <i className="bi bi-arrow-right-circle"></i>
         </button>
       </div>
     </div>
