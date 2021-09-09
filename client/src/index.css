@@ -52,6 +52,7 @@ code {
 
 .carousel-caption {
   margin-bottom: 100px;
+  letter-spacing: 5px;
 }
 
 @media (max-width: 1000px) {
@@ -107,19 +108,26 @@ code {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 300px) {
   #introduction,
   #appts,
   #faq {
-    margin-left: 25px;
-    margin-right: 25px;
-    padding: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 15px;
+  }
+  .carousel-caption {
+    letter-spacing: 2px;
+  }
+  .intro-img {
+    height: 75px;
   }
   .carousel-item {
-    max-height: 175px;
+    max-height: 150px;
   }
   .bi-arrow-left-circle,
-  .bi-arrow-right-circle {
+  .bi-arrow-right-circle,
+  .card-text {
     font-size: 15px;
   }
 
@@ -129,13 +137,20 @@ code {
   }
 
   .intro-text,
-  h1 {
-    font-size: 12px;
-  }
+  h1,
+  label,
   .card-body,
   .form-control,
   .faq-btn,
-  .nav-text {
-    font-size: 10px;
+  .nav-text,
+  .appt-btn,
+  .navbar-toggler {
+    font-size: 8px;
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    height: 15px;
+    width: 15px;
   }
 }

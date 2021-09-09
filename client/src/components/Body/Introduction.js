@@ -16,7 +16,7 @@ const Introduction = () => {
           <div className="col-md-6">
             <img
               src="https://d338t8kmirgyke.cloudfront.net/icons/icon_pngs/000/009/456/original/family2.png"
-              className="img-fluid rounded-start"
+              className="intro-img img-fluid rounded-start"
               alt="..."
             ></img>
           </div>

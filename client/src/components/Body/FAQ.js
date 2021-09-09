@@ -80,7 +80,7 @@ const FAQ = () => {
                 with you being present at some or all the cleaning sessions.
               </div>
             </div>
-            <a className="btn btn-light mt-3" href="/faq">
+            <a className="faq-btn btn btn-light mt-3" href="/faq">
               {" "}
               View More
             </a>
