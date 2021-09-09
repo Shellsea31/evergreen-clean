@@ -6,7 +6,7 @@ const introStyle = {
 
 const Introduction = () => {
   return (
-    <div>
+   
       <div
         className="card mb-3 border-0 rounded-0"
         id="introduction"
@@ -30,7 +30,7 @@ const Introduction = () => {
           </div>
         </div>
       </div>
-    </div>
+    
   );
 };
 
