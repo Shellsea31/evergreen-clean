@@ -4,9 +4,9 @@ const Appointments = () => {
   const cardStyle = {
     minWidth: "auto",
     padding: "50px",
-    marginTop: "75px",
-    marginLeft: "200px",
-    marginRight: "200px",
+    // marginTop: "75px",
+    // marginLeft: "200px",
+    // marginRight: "200px",
   };
   return (
     <div

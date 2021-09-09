@@ -1,12 +1,4 @@
 import React from "react";
-const cardStyle = {
-  minWidth: "auto",
-  padding: "50px",
-  backgroundColor: "#f0f6f6",
-  marginTop:"75px",
-  marginLeft:"250px",
-  marginRight:"250px"
-};
 
 const introStyle = {
   fontFamily: "Staatliches, cursive",
@@ -17,8 +9,7 @@ const Introduction = () => {
     <div>
       <div
         className="card mb-3 border-0 rounded-0"
-        id="about"
-        style={cardStyle}
+        id="introduction"
       >
         <div className="row">
           {/* Image styling container */}
