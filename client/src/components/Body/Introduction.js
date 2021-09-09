@@ -1,12 +1,4 @@
 import React from "react";
-const cardStyle = {
-  minWidth: "auto",
-  padding: "50px",
-  backgroundColor: "#f0f6f6",
-  marginTop:"75px",
-  marginLeft:"250px",
-  marginRight:"250px"
-};
 
 const introStyle = {
   fontFamily: "Staatliches, cursive",
@@ -14,11 +6,10 @@ const introStyle = {
 
 const Introduction = () => {
   return (
-    <div>
+   
       <div
         className="card mb-3 border-0 rounded-0"
-        id="about"
-        style={cardStyle}
+        id="introduction"
       >
         <div className="row">
           {/* Image styling container */}
@@ -31,7 +22,7 @@ const Introduction = () => {
           </div>
           <div className="col-md-6">
             <div className="card-body">
-              <h1 className="card-text text-center" style={introStyle}>
+              <h1 className="intro-text card-text text-center" style={introStyle}>
                 A company dedicated to helping families achieve their cleaning
                 goals.
               </h1>
@@ -39,7 +30,7 @@ const Introduction = () => {
           </div>
         </div>
       </div>
-    </div>
+    
   );
 };
 
