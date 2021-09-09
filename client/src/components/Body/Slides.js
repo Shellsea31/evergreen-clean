@@ -11,9 +11,7 @@ const Slides = () => {
       className="carousel slide carousel-fade"
       data-bs-ride="carousel"
     >
-      <div
-        className="carousel-inner"
-      >
+      <div className="carousel-inner">
         <div className="carousel-item active" data-bs-interval="5000">
           <img
             src="https://cdn.pixabay.com/photo/2014/12/17/16/54/clean-571679_1280.jpg"
@@ -21,7 +19,7 @@ const Slides = () => {
             alt="..."
           ></img>
           <div
-            className="carousel-caption d-none d-sm-block position-absolute bottom-50 text-dark"
+            className="carousel-caption  d-sm-block position-absolute text-dark"
             style={letters}
           >
             <h1>A company based in Olympia, WA</h1>
@@ -34,7 +32,7 @@ const Slides = () => {
             alt="..."
           ></img>
           <div
-            className="carousel-caption d-none d-sm-block position-absolute bottom-50"
+            className="carousel-caption d-sm-block position-absolute"
             style={letters}
           >
             <h1>Over 10 years of experience</h1>
@@ -47,7 +45,7 @@ const Slides = () => {
             alt="..."
           ></img>
           <div
-            className="carousel-caption d-none d-sm-block position-absolute bottom-50 text-dark"
+            className="carousel-caption d-sm-block position-absolute text-dark"
             style={letters}
           >
             <h1>Book your appointment today!</h1>

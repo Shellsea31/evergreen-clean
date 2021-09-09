@@ -25,6 +25,12 @@ code {
   margin-left: 250px;
 }
 
+#faq {
+  min-width: auto;
+  padding: 50px;
+  background-color: #2a3d45;
+  margin: 75px;
+}
 #inputForm {
   width: 450px;
 }
@@ -44,6 +50,9 @@ code {
   font-size: 20px;
 }
 
+.carousel-caption {
+  margin-bottom: 100px;
+}
 
 @media (max-width: 1000px) {
   #introduction,
@@ -64,6 +73,69 @@ code {
   }
 }
 
-@media (max-width: 765px){
+@media (max-width: 375px) {
+  .carousel-caption {
+    margin-bottom: 10%;
+  }
 
+  #introduction,
+  #appts,
+  #faq {
+    margin: 50px;
+  }
+  .carousel-item {
+    max-height: 200px;
+  }
+  .bi-arrow-left-circle,
+  .bi-arrow-right-circle {
+    font-size: 25px;
+  }
+
+  .blockquote,
+  .blockquote-footer {
+    font-size: 10px;
+  }
+
+  .intro-text,
+  h1 {
+    font-size: 15px;
+  }
+  .card-body,
+  .form-control,
+  .faq-btn {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 375px) {
+  #introduction,
+  #appts,
+  #faq {
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 20px;
+  }
+  .carousel-item {
+    max-height: 175px;
+  }
+  .bi-arrow-left-circle,
+  .bi-arrow-right-circle {
+    font-size: 15px;
+  }
+
+  .blockquote,
+  .blockquote-footer {
+    font-size: 7px;
+  }
+
+  .intro-text,
+  h1 {
+    font-size: 12px;
+  }
+  .card-body,
+  .form-control,
+  .faq-btn,
+  .nav-text {
+    font-size: 10px;
+  }
 }
