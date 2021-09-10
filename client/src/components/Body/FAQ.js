@@ -1,4 +1,5 @@
 import React from "react";
+import { Link, NavLink } from "react-router-dom";
 
 const FAQ = () => {
   // const cardStyle = {
@@ -80,10 +81,10 @@ const FAQ = () => {
                 with you being present at some or all the cleaning sessions.
               </div>
             </div>
-            <a className="faq-btn btn btn-light mt-3" href="/faq">
-              {" "}
-              View More
-            </a>
+
+            <Link to="/faq">
+              <button className="faq-btn btn btn-light mt-3"> View More</button>
+            </Link>
           </div>
         </div>
       </div>
