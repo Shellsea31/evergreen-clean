@@ -5,8 +5,6 @@ import Introduction from "../components/Body/Introduction";
 import Slides from "../components/Body/Slides";
 import Testimonials from "../components/Body/Testimonials";
 
-
-//All main components besides navbar and footer get filtered here
 const Body = () => {
   return (
     <div>
@@ -15,7 +13,6 @@ const Body = () => {
       <FAQ />
       <Appointments />
       <Testimonials />
-      
     </div>
   );
 };

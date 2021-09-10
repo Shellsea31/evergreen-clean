@@ -4,36 +4,36 @@ import React from "react";
 const Slides = () => {
   return (
     <div
-      id="carouselExampleInterval"
+      id="carouselInterval"
       className="carousel slide carousel-fade"
       data-bs-ride="carousel"
     >
       <div className="carousel-inner">
-        <div className="carousel-item active" data-bs-interval="5000">
+        <div className="carousel-item active" data-bs-interval="4000">
           <img
             src="https://cdn.pixabay.com/photo/2014/12/17/16/54/clean-571679_1280.jpg"
             className="d-block w-100"
-            alt="..."
+            alt="cleaning products"
           ></img>
           <div className="carousel-caption  d-sm-block position-absolute text-dark">
             <h1 className="carousel-text">A company based in Olympia, WA</h1>
           </div>
         </div>
-        <div className="carousel-item" data-bs-interval="5000">
+        <div className="carousel-item" data-bs-interval="4000">
           <img
             src="https://cdn.pixabay.com/photo/2014/02/17/13/18/cleaning-268107_1280.jpg"
             className="d-block w-100"
-            alt="..."
+            alt="sweeping floor"
           ></img>
           <div className="carousel-caption d-sm-block position-absolute">
             <h1 className="carousel-text">Over 10 years of experience</h1>
           </div>
         </div>
-        <div className="carousel-item" data-bs-interval="5000">
+        <div className="carousel-item" data-bs-interval="4000">
           <img
             src="https://cdn.pixabay.com/photo/2016/11/19/00/17/broom-1837434_1280.jpg"
             className="d-block w-100"
-            alt="..."
+            alt="broom and mop"
           ></img>
           <div className="carousel-caption d-sm-block position-absolute text-dark">
             <h1 className="carousel-text">Book your appointment today!</h1>
@@ -44,7 +44,7 @@ const Slides = () => {
       <button
         className="carousel-control-prev"
         type="button"
-        data-bs-target="#carouselExampleInterval"
+        data-bs-target="#carouselInterval"
         data-bs-slide="prev"
       >
         <span className="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -54,7 +54,7 @@ const Slides = () => {
       <button
         className="carousel-control-next"
         type="button"
-        data-bs-target="#carouselExampleInterval"
+        data-bs-target="#carouselInterval"
         data-bs-slide="next"
       >
         <span className="carousel-control-next-icon" aria-hidden="true"></span>

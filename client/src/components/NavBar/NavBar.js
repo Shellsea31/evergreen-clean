@@ -1,13 +1,17 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 // Basic menu, mobile responsive
 const NavBar = () => {
+  const color = {
+    color: "#629460",
+  };
   return (
     <nav className="navbar navbar-expand-lg navbar-light">
       <div className="container-fluid">
-        <span className="navbar-brand mb-0 h1" style={{ color: "#629460" }}>
+        <span className="navbar-brand mb-0 h1" style={color}>
           Evergreen Cleaning
-          <i className="fas fa-broom" style={{ color: "#629460" }}></i>
+          <i className="fas fa-broom" style={color}></i>
         </span>
 
         <button
@@ -33,11 +37,13 @@ const NavBar = () => {
                 About
               </a>
             </li>
-            <li className="nav-item">
-              <a className="nav-text btn" name="faq" href="#faq">
-                FAQs
-              </a>
-            </li>
+            <Link to="/faq">
+              <li className="nav-item">
+                <p className="nav-text btn" name="faq" href="/faq">
+                  FAQs
+                </p>
+              </li>
+            </Link>
             <li className="nav-item">
               <a className="nav-text btn" name="appts" href="/#appts">
                 Appointments

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 //A basic footer with potential links
 const Footer = () => {
@@ -13,17 +14,22 @@ const Footer = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a href="#about" className="nav-text nav-link px-2 text-muted">
+              <a href="/#about" className="nav-text nav-link px-2 text-muted">
                 About
               </a>
             </li>
+            <Link to="/faq" style={{ textDecoration: "none" }}>
+              <li className="nav-item">
+                <p
+                  href="#faq"
+                  className="nav-text nav-link px-2 text-muted"
+                >
+                  FAQ
+                </p>
+              </li>
+            </Link>
             <li className="nav-item">
-              <a href="#faq" className="nav-text nav-link px-2 text-muted">
-                FAQ
-              </a>
-            </li>
-            <li className="nav-item">
-              <a href="#appts" className="nav-text nav-link px-2 text-muted">
+              <a href="/#appts" className="nav-text nav-link px-2 text-muted">
                 Appointments
               </a>
             </li>

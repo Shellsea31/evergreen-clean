@@ -1,14 +1,7 @@
 import React from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const FAQ = () => {
-  // const cardStyle = {
-  //   minWidth: "auto",
-  //   padding: "50px",
-  //   backgroundColor: "#2a3d45",
-  //   margin: "75px",
-  // };
-
   return (
     <div className="card mb-3 border-0 rounded-0" id="faq">
       <div className="row">
@@ -23,16 +16,16 @@ const FAQ = () => {
               <a
                 className="faq-btn btn btn-outline-light text-light"
                 data-bs-toggle="collapse"
-                href="#collapseExample1"
+                href="#collapse1"
                 role="button"
                 aria-expanded="false"
-                aria-controls="collapseExample1"
+                aria-controls="collapse1"
               >
                 Why should I choose Evergreen Cleaning over your competitors?
               </a>
             </p>
 
-            <div className="collapse text-light" id="collapseExample1">
+            <div className="collapse text-light" id="collapse1">
               <div className="faq-text card card-body bg-transparent border-0">
                 We offer a trustworthy service unique to your needs. Unlike most
                 standard cleaning service, we are completely flexible and
@@ -44,15 +37,15 @@ const FAQ = () => {
               <a
                 className="faq-btn btn btn-outline-light text-light "
                 data-bs-toggle="collapse"
-                href="#collapseExample2"
+                href="#collapse2"
                 role="button"
                 aria-expanded="false"
-                aria-controls="collapseExample2"
+                aria-controls="collapse2"
               >
                 Do you bring your own equipment and cleaning supplies?
               </a>
             </p>
-            <div className="collapse text-light" id="collapseExample2">
+            <div className="collapse text-light" id="collapse2">
               <div className="faq-text card card-body bg-transparent border-0">
                 Because we like to cater to your needs and want to be as
                 versatile as possible with all our clients, we ask that you
@@ -65,16 +58,16 @@ const FAQ = () => {
               <a
                 className="faq-btn btn btn-outline-light text-light"
                 data-bs-toggle="collapse"
-                href="#collapseExample3"
+                href="#collapse3"
                 role="button"
                 aria-expanded="false"
-                aria-controls="collapseExample3"
+                aria-controls="collapse3"
               >
                 Do I have to be home while you are cleaning?
               </a>
             </p>
 
-            <div className="collapse text-light" id="collapseExample3">
+            <div className="collapse text-light" id="collapse3">
               <div className="faq-text card card-body bg-transparent border-0">
                 We love when there is trust between us and our clients. However,
                 we recognize that it's not immediate. So, we have no problem

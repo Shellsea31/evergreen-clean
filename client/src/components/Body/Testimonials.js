@@ -1,16 +1,10 @@
 import React from "react";
 
 const Testimonials = () => {
-  const cardStyle = {
-    minWidth: "auto",
-    marginTop:"75px",
-    marginBottom:"75px",
-  };
-
   return (
-    <div className="card bg-transparent border-0" style={cardStyle}>
+    <div className="card bg-transparent border-0" id="test">
       <div
-        id="carouselExampleControls"
+        id="carouselControls"
         className="carousel slide"
         data-bs-ride="carousel"
       >
@@ -55,7 +49,7 @@ const Testimonials = () => {
         <button
           className="carousel-control-prev"
           type="button"
-          data-bs-target="#carouselExampleControls"
+          data-bs-target="#carouselControls"
           data-bs-slide="prev"
         >
           <i className="bi bi-arrow-left-circle"></i>
@@ -63,7 +57,7 @@ const Testimonials = () => {
         <button
           className="carousel-control-next"
           type="button"
-          data-bs-target="#carouselExampleControls"
+          data-bs-target="#carouselControls"
           data-bs-slide="next"
         >
           <i className="bi bi-arrow-right-circle"></i>

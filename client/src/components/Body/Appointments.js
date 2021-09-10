@@ -40,7 +40,9 @@ const Appointments = () => {
             ></input>
           </div>
 
-          <label className="card-text form-label">Tell us about your goals</label>
+          <label className="card-text form-label">
+            Tell us about your goals
+          </label>
 
           <div className="input-group mb-3">
             <textarea

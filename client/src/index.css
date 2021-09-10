@@ -25,12 +25,24 @@ code {
   margin-left: 250px;
 }
 
+#test {
+  min-width: auto;
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
 #faq {
   min-width: auto;
   padding: 50px;
   background-color: #2a3d45;
   margin: 75px;
 }
+
+#full-faq-card {
+  min-width: auto;
+  padding: 50px;
+}
+
 #inputForm {
   width: 450px;
 }

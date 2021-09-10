@@ -1,16 +1,12 @@
 import React from "react";
 
 const Faq = () => {
-  const cardStyle = {
-    minWidth: "auto",
-    padding: "50px",
-  };
 
   return (
-    <div className="card mt-5 mb-5 bg-transparent border-0" id="about" style={cardStyle}>
-      <div className="row">
+    <div className="card mt-5 mb-5 bg-transparent border-0" id="full-faq-card">
+      <div className="row" id="faqFull">
         <div className="col-md-6">
-          <div className="accordion accordion-flush" id="accordionFlushExample">
+          <div className="accordion accordion-flush" id="accordionFlush">
             <div className="accordion-item">
               <h2 className="accordion-header" id="flush-headingOne">
                 <button
@@ -28,7 +24,7 @@ const Faq = () => {
                 id="flush-collapseOne"
                 className="accordion-collapse collapse"
                 aria-labelledby="flush-headingOne"
-                data-bs-parent="#accordionFlushExample"
+                data-bs-parent="#accordionFlush"
               >
                 <div className="accordion-body">
                   We offer a trustworthy service unique to your needs. Unlike
@@ -55,7 +51,7 @@ const Faq = () => {
                 id="flush-collapseTwo"
                 className="accordion-collapse collapse"
                 aria-labelledby="flush-headingTwo"
-                data-bs-parent="#accordionFlushExample"
+                data-bs-parent="#accordionFlush"
               >
                 <div className="accordion-body">
                   Because we like to cater to your needs and want to be as
@@ -82,7 +78,7 @@ const Faq = () => {
                 id="flush-collapseThree"
                 className="accordion-collapse collapse"
                 aria-labelledby="flush-headingThree"
-                data-bs-parent="#accordionFlushExample"
+                data-bs-parent="#accordionFlush"
               >
                 <div className="accordion-body">
                   We love when there is trust between us and our clients.
