@@ -108,7 +108,7 @@ const Faq = () => {
                 aria-describedby="question"
               ></input>
             </div>
-            <button type="submit" className="btn btn-light mt-4">
+            <button type="submit" className="submit-btn btn btn-light mt-4">
               Submit
             </button>
           </form>

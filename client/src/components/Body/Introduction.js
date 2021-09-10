@@ -22,7 +22,7 @@ const Introduction = () => {
           </div>
           <div className="col-md-6">
             <div className="card-body">
-              <h1 className="intro-text card-text text-center" style={introStyle}>
+              <h1 className="card-text text-center" style={introStyle}>
                 A company dedicated to helping families achieve their cleaning
                 goals.
               </h1>

@@ -16,7 +16,7 @@ const Slides = () => {
             alt="..."
           ></img>
           <div className="carousel-caption  d-sm-block position-absolute text-dark">
-            <h1>A company based in Olympia, WA</h1>
+            <h1 className="carousel-text">A company based in Olympia, WA</h1>
           </div>
         </div>
         <div className="carousel-item" data-bs-interval="5000">
@@ -26,7 +26,7 @@ const Slides = () => {
             alt="..."
           ></img>
           <div className="carousel-caption d-sm-block position-absolute">
-            <h1>Over 10 years of experience</h1>
+            <h1 className="carousel-text">Over 10 years of experience</h1>
           </div>
         </div>
         <div className="carousel-item" data-bs-interval="5000">
@@ -36,7 +36,7 @@ const Slides = () => {
             alt="..."
           ></img>
           <div className="carousel-caption d-sm-block position-absolute text-dark">
-            <h1>Book your appointment today!</h1>
+            <h1 className="carousel-text">Book your appointment today!</h1>
           </div>
         </div>
       </div>

@@ -36,7 +36,7 @@ code {
 }
 
 .carousel-item {
-  max-height: 700px;
+  max-height: 600px;
 }
 
 .bi-arrow-left-circle,
@@ -51,11 +51,11 @@ code {
 }
 
 .carousel-caption {
-  margin-bottom: 100px;
+  margin-bottom: 250px;
   letter-spacing: 5px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
   #introduction,
   #appts {
     margin: 95px;
@@ -63,29 +63,9 @@ code {
   .carousel-item {
     max-height: 300px;
   }
-  .bi-arrow-left-circle,
-  .bi-arrow-right-circle {
-    font-size: 25px;
-  }
 
-  .blockquote,
-  .blockquote-footer {
-    font-size: 12px;
-  }
-}
-
-@media (max-width: 375px) {
   .carousel-caption {
-    margin-bottom: 10%;
-  }
-
-  #introduction,
-  #appts,
-  #faq {
-    margin: 50px;
-  }
-  .carousel-item {
-    max-height: 200px;
+    margin-bottom: 100px;
   }
   .bi-arrow-left-circle,
   .bi-arrow-right-circle {
@@ -94,31 +74,27 @@ code {
 
   .blockquote,
   .blockquote-footer {
-    font-size: 10px;
+    font-size: 12px;
   }
 
-  .intro-text,
-  h1 {
-    font-size: 15px;
-  }
-  .card-body,
-  .form-control,
-  .faq-btn {
-    font-size: 12px;
+  .carousel-text {
+    font-size: 25px;
   }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 540px) {
   #introduction,
   #appts,
   #faq {
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 90px;
+    margin-right: 90px;
     padding: 15px;
   }
   .carousel-caption {
     letter-spacing: 2px;
+    margin-bottom: 5%;
   }
+
   .intro-img {
     height: 75px;
   }
@@ -132,19 +108,27 @@ code {
   }
 
   .blockquote,
-  .blockquote-footer {
+  .blockquote-footer,
+  .form-control {
     font-size: 7px;
   }
 
-  .intro-text,
-  h1,
-  label,
-  .card-body,
-  .form-control,
-  .faq-btn,
-  .nav-text,
-  .appt-btn,
   .navbar-toggler {
+    font-size: 12px;
+  }
+
+  .card-text,
+  label,
+  .nav-text,
+  .carousel-text,
+  .accordion-button {
+    font-size: 12px;
+  }
+
+  .faq-text,
+  .faq-btn,
+  .appt-btn,
+  .submit-btn {
     font-size: 8px;
   }
 
@@ -153,4 +137,57 @@ code {
     height: 15px;
     width: 15px;
   }
+}
+
+@media (max-width: 360px) {
+  #introduction,
+  #appts,
+  #faq {
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 15px;
+  }
+  /* .carousel-caption {
+    letter-spacing: 2px;
+  } */
+  /* .intro-img {
+    height: 75px;
+  } */
+  /* .carousel-item {
+    max-height: 150px;
+  } */
+  /* .bi-arrow-left-circle,
+  .bi-arrow-right-circle,
+  .card-text {
+    font-size: 15px;
+  } */
+
+  /* .blockquote,
+  .blockquote-footer,
+  .form-control {
+    font-size: 7px;
+  } */
+
+  /* .navbar-toggler {
+    font-size: 12px;
+  } */
+
+  /* .card-text,
+  label,
+  .nav-text,
+  .carousel-text {
+    font-size: 12px;
+  } */
+
+  /* .faq-text,
+  .faq-btn,
+  .appt-btn {
+    font-size: 8px;
+  } */
+
+  /* .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    height: 15px;
+    width: 15px;
+  } */
 }
