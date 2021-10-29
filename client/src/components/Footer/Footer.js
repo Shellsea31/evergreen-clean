@@ -38,9 +38,9 @@ const Footer = () => {
           <p className="nav-text text-center text-muted" id="contact">
             Contact us:
           </p>
-          <p className="nav-text text-center text-muted">Phone: 408-836-8483</p>
+          <p className="nav-text text-center text-muted">Phone: 408-678-8667</p>
           <p className="nav-text text-center text-muted">
-            Email: duniavbarrera@gmail.com
+            Email: evergreenclean@gmail.com
           </p>
           <p className="nav-text text-center text-muted">
             Based in Olympia, WA
